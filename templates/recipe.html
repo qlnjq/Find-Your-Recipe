@@ -10,22 +10,23 @@
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-{#  <script src="../static/front-end/recipe.js"></script>#}
-{#  <link rel="stylesheet" href="../static/front-end/recipe.css">#}
+  <script src="https://developer.edamam.com/attribution/badge.js"></script>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <script>
+  <script>
     (function() {
       "use strict";
 
       let observer = new MutationObserver(function() {
         if (document.body) {
-            hideUnnecessaryRecipes();
+          hideUnnecessaryRecipes();
           observer.disconnect();
         }
       });
-      observer.observe(document.documentElement, {childList: true});
+      observer.observe(document.documentElement, {
+        childList: true
+      });
     })();
   </script>
 
@@ -107,7 +108,9 @@
     </div>
 
     <div class="row" id="app-info">
-      2020-May
+      Finished on 2020-May
+      <div id="edamam-badge" data-color="white"></div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> and <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a>
+      from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
     </div>
 
   </div>

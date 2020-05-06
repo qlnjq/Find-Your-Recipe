@@ -212,16 +212,25 @@ h6 {
   -webkit-box-orient: vertical;
 }
 
-#load-more-container, #app-info {
+#load-more-container {
   position: relative;
   align-self: center;
+  top: -3.5%;
 }
 
 #app-info {
   position: absolute;
   bottom: 0px;
   margin-bottom: 0.5%;
+  display: inline-flex;
+  align-self: center;
   align-items: baseline;
+  justify-content: space-around;
+}
+
+#edamam-badge > a > img {
+  width: 80% !important;
+  height: 80% !important;
 }
 
 #data {

@@ -3,8 +3,8 @@ import json
 from flask import render_template, request
 
 
-app_id = '9c6002af'
-app_key = '048cc175d1a6141040a85f9fb7c55cf5'
+app_id = ''
+app_key = ''
 
 
 def recipe_search():
