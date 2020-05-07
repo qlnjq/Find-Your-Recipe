@@ -8,6 +8,7 @@ body {
 	width: 100vw;
 	overflow: hidden;
 	background-repeat: no-repeat;
+	overflow: hidden;
 }
 
 .website-title {
