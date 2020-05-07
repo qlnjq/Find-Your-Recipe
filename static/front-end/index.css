@@ -8,7 +8,6 @@ body {
 	width: 100vw;
 	overflow: hidden;
 	background-repeat: no-repeat;
-	overflow: hidden;
 }
 
 .website-title {
@@ -24,7 +23,7 @@ body {
 	left: 50%;
 	transform: translateX(-50%);
 	top: 34vw;
-	width: 60vw;
+	width: 80vw;
 }
 
 fieldset{
