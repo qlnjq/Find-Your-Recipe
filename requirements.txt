@@ -21,7 +21,7 @@ Flask==1.1.2
 flask-paginate==0.6.0
 google==2.0.3
 google-api-core==1.17.0
-google-auth==1.14.1
+google-auth==1.14.2
 google-cloud-vision==1.0.0
 googleapis-common-protos==1.51.0
 grpcio==1.28.1
