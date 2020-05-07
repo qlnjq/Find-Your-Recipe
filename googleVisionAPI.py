@@ -8,7 +8,9 @@ from google.oauth2 import service_account
 
 def search_labels(location, image_address):
     # Instantiates a client
-    client = vision.ImageAnnotatorClient()
+    credentials = service_account.Credentials.from_service_account_file(
+        "/Users/bluish/Documents/credentials/google-api.json")
+    client = vision.ImageAnnotatorClient(credentials=credentials)
 
     if location == 'local':
         # The name of the image file to annotate

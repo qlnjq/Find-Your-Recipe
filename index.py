@@ -40,4 +40,4 @@ def get_label(location, img_path):
 
 
 if __name__ == '__main__':
-	app.run(debug=True, use_reloader=True)
+	app.run(debug=False, use_reloader=True)

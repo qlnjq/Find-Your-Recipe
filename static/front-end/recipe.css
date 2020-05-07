@@ -156,6 +156,7 @@ input[type=text]:focus {
 }
 
 #front:hover, #back:hover {
+  transition: all 0.5s;
   cursor: pointer;
   box-shadow: -2px -4px 7px 4px #CFC6AC;
 }
