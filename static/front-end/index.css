@@ -4,9 +4,11 @@
 body {
 	/* position: relative; */
 	background-image: url('../bg_main.png');
-	height: 100vh;
-	width: 100vw;
+	/*height: 100vh;*/
+	/*width: 100vw;*/
 	overflow: hidden;
+	background-repeat: no-repeat;
+	background-size:100% auto;
 }
 
 .website-title {
@@ -93,7 +95,7 @@ input[type=text]:focus {
 }
 
 #image-preview-c {
-	position: absolute;
+	position: relative;
 	top: 72.05322807vh;
 	left:0px;
 	height: 25vh;
