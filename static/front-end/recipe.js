@@ -24,39 +24,11 @@ $(document).on("click","#load-more-container", function () {
 
 
 function hideUnnecessaryRecipes() {
-    console.log("hello");
         let visibleCards = $('.recipe-card:visible');
         let recipeCount = visibleCards.length;
         if (recipeCount > 3) {
             for (let i = 3; i < recipeCount; i++) {
-                console.log($(visibleCards[i]).parent());
                 $(visibleCards[i]).parent().hide();
             }
         }
 }
-
-
-// window.addEventListener("load",function() {
-// });
-//
-// $(function () {
-//     const card = document.getElementsByClassName("recipe-card")[0];
-//         alert("aloha");
-//
-//
-//     let visibleCards = $('.recipe-card');
-//     alert("1");
-//         let recipeCount = visibleCards.length;
-//         alert(" 2");
-//         console.log(recipeCount);
-//         document.addEventListener("DOMContentLoaded", function(event) {
-//            console.log("DOM fully loaded and parsed");
-//         });
-//         if (recipeCount > 3) {
-//             alert(" 3");
-//             for (let i = 3; i < recipeCount; i++) {
-//                 console.log($(visibleCards[i]).parent());
-//                 $(visibleCards[i]).parent().hide();
-//             }
-//         }
-// });
