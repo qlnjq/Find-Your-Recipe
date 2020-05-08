@@ -18,6 +18,7 @@ $(function () {
                 });
 
                 reader.readAsDataURL(img);
+                document.body.style.backgroundImage = "url('../static/bg_upload.png')";
                 searchRecipe();
             } else {
                 previewImage.style.display = "null";
